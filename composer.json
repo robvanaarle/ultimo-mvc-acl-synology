@@ -1,0 +1,38 @@
+{
+    "name": "robvanaarle/ultimo-synology-acl-mvc",
+    "description": "Synology Diskstation Authentication using ACL for Ultimo MVC",
+    "type": "library",
+    "keywords": [
+        "synology",
+        "diskstation",
+        "sdk",
+        "authentication",
+        "UltimoMVC"
+    ],
+    "license": "BSD-3-Clause",
+    "authors": [
+	  		{
+	    	  "name": "Rob van Aarle"
+	  		}
+	  ],
+    "repositories": [
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-synology-ds"
+      	},
+      	{
+        	"type": "vcs",
+        	"url": "https://github.com/robvanaarle/ultimo-mvc"
+      	}
+    ],
+    "require": {
+        "robvanaarle/ultimo-synology-ds": "dev-master",
+        "robvanaarle/ultimo-mvc": "dev-master"
+    },
+    "autoload": {
+    		"psr-4": {
+       			"ultimo\\": "src/ultimo/"
+    		}
+  }
+}
+
