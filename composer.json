@@ -1,5 +1,5 @@
 {
-    "name": "robvanaarle/ultimo-synology-acl-mvc",
+    "name": "robvanaarle/ultimo-mvc-acl-synology",
     "description": "Synology Diskstation Authentication using ACL for Ultimo MVC",
     "type": "library",
     "keywords": [

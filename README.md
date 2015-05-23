@@ -1,4 +1,4 @@
-# Ultimo Synology ACL MVC
+# Ultimo MVC ACL Synology
 Synology Diskstation Authentication using ACL for Ultimo MVC
 
 ## Requirements
